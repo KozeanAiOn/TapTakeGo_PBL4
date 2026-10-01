@@ -1,0 +1,20 @@
+# Bỏ qua môi trường ảo Python và thư viện
+PBL4_Env/
+venv/
+__pycache__/
+
+# Bỏ qua dữ liệu AI nặng
+dataset/
+runs/
+*.pt
+*.onnx
+
+# Bỏ qua các file biên dịch của vi điều khiển STM32
+firmware/build/
+*.elf
+*.bin
+*.hex
+*.o
+
+# Bỏ qua file hệ thống
+.DS_Store
